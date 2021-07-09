@@ -29,22 +29,42 @@ Source: Leetcode https://leetcode.com/problems/minimum-number-of-days-to-make-m-
 Given an encoded string, return its decoded string. The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer. You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc.
 Source: Leetcode https://leetcode.com/problems/decode-string
 
-# Minimum Number of Days to Make m Bouquets from Adjacent Flowers in the Garden
+## Minimum Number of Days to Make m Bouquets from Adjacent Flowers in the Garden
 Given an integer array bloomDay, an integer m and an integer k. We need to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden. The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet. Return the minimum number of days you need to wait to be able to make m bouquets from the garden. If it is impossible to make bouquets return -1.
 Source: Leetcode https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
-# Partition into two Equal Subsets
+## Partition into two Equal Subsets
 Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 Source: Leetcode https://leetcode.com/problems/partition-equal-subset-sum/
 
-# Single Row Keyboard
+## Single Row Keyboard
 There is a special keyboard with all keys in a single row. Given a string keyboard of length 26 indicating the layout of the keyboard (indexed from 0 to 25). Initially, your finger is at index 0. To type a character, you have to move your finger to the index of the desired character. The time taken to move your finger from index i to index j is |i - j|. You want to type a string word. Write a function to calculate how much time it takes to type it with one finger.
 Source: Leetcode https://leetcode.com/problems/single-row-keyboard/
 
-# Longest Increasing Subsequence
+## Longest Increasing Subsequence
 Given an integer array nums, return the length of the longest strictly increasing subsequence. A subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
 Source: Leetcode https://leetcode.com/problems/longest-increasing-subsequence/
 
-# Maximum Distance to Person
+## Maximum Distance to Person
 You are given an array representing a row of seats where seats[i] = 1 represents a person sitting in the ith seat, and seats[i] = 0 represents that the ith seat is empty (0-indexed). There is at least one empty seat, and at least one person sitting. Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized. Return that maximum distance to the closest person.
 Source: Leetcode https://leetcode.com/problems/maximize-distance-to-closest-person/
+
+## Backspace String Compare
+Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character. Note that after backspacing an empty text, the text will continue empty.
+Source: Leetcode https://leetcode.com/problems/backspace-string-compare/
+
+## Cousins in Binary Tree
+In a binary tree, the root node is at depth 0, and children of each depth k node are at depth k+1. Two nodes of a binary tree are cousins if they have the same depth, but have different parents. We are given the root of a binary tree with unique values, and the values x and y of two different nodes in the tree. Return true if and only if the nodes corresponding to the values x and y are cousins.
+Source: Leetcode https://leetcode.com/problems/cousins-in-binary-tree/
+
+## k Closest Points
+Given an array of points where points[i] = [xi, yi] represents a point on the X-Y plane and an integer k, return the k closest points to the origin (0, 0). The distance between two points on the X-Y plane is the Euclidean distance (i.e., √(x1 - x2)2 + (y1 - y2)2).
+Source: Leetcode https://leetcode.com/problems/k-closest-points-to-origin/
+
+## Maximum Distance to a Person
+You are given an array representing a row of seats where seats[i] = 1 represents a person sitting in the ith seat, and seats[i] = 0 represents that the ith seat is empty (0-indexed). There is at least one empty seat, and at least one person sitting. Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized. Return that maximum distance to the closest person.
+Source: Leetcode https://leetcode.com/problems/maximize-distance-to-closest-person/
+
+## Product at Index
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. You must write an algorithm that runs in O(n) time and without using the division operation.
+Source: Leetcode https://leetcode.com/problems/product-of-array-except-self/
