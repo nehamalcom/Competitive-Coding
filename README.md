@@ -25,7 +25,7 @@ Source: LeetCode https://leetcode.com/problems/two-sum-less-than-k/
 Given an integer array bloomDay, an integer m and an integer k. We need to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden. The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet. Return the minimum number of days you need to wait to be able to make m bouquets from the garden.
 Source: Leetcode https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
-# Decode string
+## Decode string
 Given an encoded string, return its decoded string. The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times. Note that k is guaranteed to be a positive integer. You may assume that the input string is always valid; No extra white spaces, square brackets are well-formed, etc.
 Source: Leetcode https://leetcode.com/problems/decode-string
 
@@ -68,3 +68,8 @@ Source: Leetcode https://leetcode.com/problems/maximize-distance-to-closest-pers
 ## Product at Index
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. You must write an algorithm that runs in O(n) time and without using the division operation.
 Source: Leetcode https://leetcode.com/problems/product-of-array-except-self/
+
+## Pascal's Triangle
+Given an integer numRows, return the first numRows of Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
+Source: Leetcode https://leetcode.com/problems/pascals-triangle/
