@@ -73,3 +73,7 @@ Source: Leetcode https://leetcode.com/problems/product-of-array-except-self/
 Given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it.
 Source: Leetcode https://leetcode.com/problems/pascals-triangle/
+
+## Majority Element II (using Moore's Voting Algorithm)
+Given an integer array of size n, find all elements that appear more than n/3 times.
+Source: Leetcode https://leetcode.com/problems/majority-element-ii/
