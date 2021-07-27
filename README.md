@@ -77,3 +77,7 @@ Source: Leetcode https://leetcode.com/problems/pascals-triangle/
 ## Majority Element II (using Moore's Voting Algorithm)
 Given an integer array of size n, find all elements that appear more than n/3 times.
 Source: Leetcode https://leetcode.com/problems/majority-element-ii/
+
+## Unique Paths (Robot)
+A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below). The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below). How many possible unique paths are there?
+Source: Leetcode https://leetcode.com/problems/unique-paths/
